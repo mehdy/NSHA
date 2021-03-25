@@ -14,3 +14,5 @@ chrono = { version = "0.4", features = ["serde"]}
 uuid = { version = "0.8", features = ["serde", "v4"] }
 log = "0.4"
 env_logger = "0.8"
+diesel = { version = "1.4.6", features = ["postgres", "r2d2", "chrono", "uuidv07"] }
+dotenv = "0.15.0"

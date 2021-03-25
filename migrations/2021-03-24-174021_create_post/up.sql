@@ -1,0 +1,5 @@
+CREATE TABLE posts (
+  id UUID PRIMARY KEY,
+  body TEXT NOT NULL,
+  created_at TIMESTAMP NOT NULL
+);
